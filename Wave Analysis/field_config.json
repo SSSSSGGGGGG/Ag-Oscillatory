@@ -1,0 +1,27 @@
+
+
+{
+  "root_dir": "C:/Users/gaosh/OneDrive - ICIQ/Documents/SG/New data Ag_Fe2O3/Big circle",
+  "videos": [
+    "UV.avi", "UV_2.avi", "UV_3.avi", "UV_4.avi",
+    "Blue.avi", "Blue_2.avi", "Blue_3.avi", "Blue_4.avi",
+    "Green.avi", "Green_2.avi", "Green_3.avi"
+  ],
+  "output_dir": "outputs/replicate_analysis_corrected_roi_first_20s",
+  "excitation_circle": {
+    "center_px": [495.53, 484.48],
+    "radius_px": 331.6,
+    "physical_diameter": null,
+    "pixels_per_unit": 4.8563,
+    "physical_unit": "um"
+  },
+  "analysis": {
+    "maximum_duration_s": 20.0,
+    "resize_scale": 0.5,
+    "crop_padding_px": 30,
+    "radial_bins": 60,
+    "minimum_frequency_hz": 0.05,
+    "maximum_frequency_hz": 4.0
+  }
+}
+
